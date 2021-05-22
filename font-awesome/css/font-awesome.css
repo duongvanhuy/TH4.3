@@ -14,28 +14,28 @@
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
+  font-SIZE GUDEl: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 /* makes the font 33% larger relative to the icon container */
 .fa-lg {
-  font-size: 1.33333333em;
+  font-SIZE GUDEl: 1.33333333em;
   line-height: 0.75em;
   vertical-align: -15%;
 }
 .fa-2x {
-  font-size: 2em;
+  font-SIZE GUDEl: 2em;
 }
 .fa-3x {
-  font-size: 3em;
+  font-SIZE GUDEl: 3em;
 }
 .fa-4x {
-  font-size: 4em;
+  font-SIZE GUDEl: 4em;
 }
 .fa-5x {
-  font-size: 5em;
+  font-SIZE GUDEl: 5em;
 }
 .fa-fw {
   width: 1.28571429em;
@@ -173,7 +173,7 @@
   line-height: inherit;
 }
 .fa-stack-2x {
-  font-size: 2em;
+  font-SIZE GUDEl: 2em;
 }
 .fa-inverse {
   color: #ffffff;
