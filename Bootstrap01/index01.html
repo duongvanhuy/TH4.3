@@ -10,30 +10,30 @@
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <title>Demo 01</title>
     <style>
-       
+       .collapse{
+           position: relative;
+           left: 0px;
+           top: 0px;
+           width: 100px;
+       }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Example: Alert heading</h1>
-        <div class="alert alert-primary">
-            <h2>Well done!!</h2>
-            <p>Bootstrap với các tiện ích trình bày văn bản, định dạng hiện thị chữ (màu sắc, nền, đậm, nghiêng), định dạng về hiện thị các phần tử, kẻ khung, bo góc, độ rộng và flexbox</p>
-        </div>
-        <h1>Example: Alert link</h1>
-        <div class="alert alert-primary">
-            <div class="row">
-                <div class="col-md-11"> <strong>Hi Trần</strong>Welcome back!!</div>
-               <div class="col-md-1"><button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" ></button></div>
-                
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
             </div>
+          </nav>
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+              <h5 class="text-white h4">Collapsed content</h5>
+              <span class="text-muted">Toggleable via the navbar brand.</span>
+            </div>
+          </div>
          
-        </div>
-        <h1>Bootstrap Tutorials</h1>   
-         <ul>
-             <li>one </li>
-             <li>two</li>
-         </ul>
     </div>
 </body>
 </html>

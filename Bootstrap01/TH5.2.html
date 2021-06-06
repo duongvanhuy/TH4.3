@@ -10,8 +10,56 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
         crossorigin="anonymous"></script>
-        <link rel="stylesheet" type="text/css" href="../../css/index01.css" >
+        <!-- <link rel="stylesheet" type="text/css" href="../css/index01.css" > -->
     <title>BÀi thực hành 5.2</title>
+    <style>
+        .fs-content .card img{
+	-webkit-transform: scale(0.8);
+	   -moz-transform: scale(0.8);
+	    -ms-transform: scale(0.8);
+	     -o-transform: scale(0.8);
+	        transform: scale(0.8);
+}
+.fs-content .card img:hover{
+	-webkit-transform: scale(1.0);
+	   -moz-transform: scale(1.0);
+	    -ms-transform: scale(1.0);
+	     -o-transform: scale(1.0);
+	        transform: scale(1.0);
+}
+.list-group-item{
+    border: none;
+}
+.fs-row{
+    background: #F8F8FF;
+}
+.f-content{
+    background: #F8F8FF;
+
+    
+}
+.ff-content img{
+    width: 427px;
+    height: 427px;
+    
+}
+.ff-content{
+    background: #F8F8FF;
+}
+.col-md-2 a{
+    text-decoration: none;
+    font-size: 40px;
+   
+}
+.row .col-md-2{
+    text-align: center;
+    background: white;
+}
+.content a{
+    text-decoration: none;
+}
+
+    </style>
 </head>
 
 <body>
@@ -29,7 +77,10 @@
                     </div>
                 </div>
                 <div class="col-md-3 ">
-                    <input type="text" value="Tìm kiếm sản phẩm..." size="40px" class="bg-secondary">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">@</span>
+                        <input type="text" class="form-control" placeholder="tìm kiếm sản phẩm" aria-label="Username" aria-describedby="basic-addon1">
+                      </div>
                 </div>
 
             </div>

@@ -1,0 +1,362 @@
+ /* header */
+ .navbar-expand-lg {
+    padding-top: 0;
+    padding-left: 35px;
+    padding-bottom: 0;
+  }
+  .vinFast{
+    text-transform: uppercase;
+  }
+  .dropdown-menu{
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  .dropdown-item{
+    font-size: 16px;
+  }
+  .dropdown-toggle::after{
+    content: none;
+  }
+  .d-flex{
+   margin-right: 60px;
+  }
+  .iconTop{
+    font-size: 18px;
+  }
+     .navbar-expand-lg .navbar-nav {
+     flex-direction: row;
+     font-size: 18px;
+     text-transform: uppercase;
+     font-weight: 500px;
+ }
+  
+  .navbar-light .d-flex .dang_ki_lai_thu {
+     border-color: #0099FF;
+     color: #0099FF;
+     margin-right: 15px;
+     padding: 1px 20px;
+   }
+   /* Nội dung */
+   /* banner */
+   .content{
+       background: url(https://shop.vinfastauto.com/on/demandware.static/-/Sites-app_vinfast_vn-Library/default/dwac5ca505/images/vfast/Hinh-anh-xe-SUV-VinFast-President-gia-xe-thong-so-bang-mau-dong-co-v8.jpg);
+       width: 100%;
+       background-size: cover;
+       min-height: 600px;
+       text-transform: uppercase;
+       font-size: 18px;
+       font-weight: 500;
+       
+   }
+   .banner{
+    position: absolute;
+    /* bottom: 20px; */
+    /* margin: 0 auto; */
+    width: 100%;
+    /* bottom: 0px; */
+    top: 150px;
+    color: #fff;
+    line-height: 15px;
+    text-align: center;
+   }
+   .banner .row .col-md-2 .btn{
+    color: #fff;
+    border: 2px solid;
+    width: 150px;
+   }
+   /* f-content */
+   .main-f-content{
+    color: #000;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    top: 70px;
+    margin-bottom: 50px;
+   }
+   .main-f-content .col-md-2 .border-end{
+     border-right: 1px solid #CCCCCC !important;
+   }
+   .img-main img{
+       max-height: 450px;
+   }
+   .f-content{
+       background: 	#EEEEEE;
+   }
+  .color ul li{
+       width: 28px;
+       height: 28px;
+       list-style: none;
+       margin-bottom: 8px;
+       border-radius: 50%;
+   }
+  .color ul{
+    margin-left: 0;
+    padding-left: 0;
+   }
+   /* Nội dung */
+   .noi_dung{
+     margin: 25px 0;
+   }
+   .noi_dung .col-md-2 .fs-6{
+    font-weight: 600;
+    text-transform: uppercase;
+   }
+   .noi_dung .col-md-2 .fs-3{
+     font-weight: 500;
+     text-transform: uppercase;
+   }
+   .noi_dung .col{
+     font-size: 16px;
+     font-weight: 200;
+     font-family: 'Times New Roman', Times, serif;
+     line-height: 20px;
+   }
+   .mua_ngay{
+     width: 170px;
+     border: 2px solid #3333FF;
+     color: #3333FF;
+     text-transform: uppercase;
+     font-size: 15px;
+     padding: 9px 3px;
+   }
+   .mua_ngay:hover{
+     color: #3333FF;
+   }
+/* .fs-content */
+   .fs-content{
+       /* background: url(https://banxevinfast.vn/wp-content/uploads/2021/02/img_vf_president02-1400x615.png); */
+       background-size: cover;
+       max-height: 633px;
+       /* cần thiết lập độ mờ cho color nếu không background-color sẽ che mất ảnh của bạn */
+       /* % là độ chiếm màu trong vùng */
+       background-image: linear-gradient(to right,#1654b1 0%,rgba(44,114,198,0) 100%),url(https://banxevinfast.vn/wp-content/uploads/2021/02/img_vf_president02-1400x615.png)
+   }
+   .chat_lieu{
+    font-size: 14px;
+  }
+  /*  */
+   .croll{
+       overflow: auto;
+       max-height: 200px;
+       max-width: 340px;
+   }
+   #style-1::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+} 
+#style-1::-webkit-scrollbar-thumb {
+  background-color: #000000;
+}
+   .img-left{
+       background: #000;
+       padding-left: 105px;
+
+   }
+   .img-left img {
+    max-width: 800px;
+    max-height: 600px;
+}
+.f-noi_dung .fs-6{
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.f-noi_dung .pe-5{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+}
+.f-noi_dung .fs-3{
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.f-noi_dung:nth-child(2){
+  font-size: 16px;
+     font-weight: 200;
+     font-family: 'Times New Roman', Times, serif;
+     line-height: 20px;
+}
+.list-group-numbered .list-group-item{
+  border-bottom-style:solid  !important;
+  border: #F5F5F5 1px;
+  padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+.list-group-numbered .list-group-item a{
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.list-group-numbered .list-group-item a:hover{
+  
+  color: #0d6efd;
+}
+.list-group-numbered .list-group-item.active {
+  z-index: 2;
+  color: #0d6efd;
+  background-color: #fff !important;
+  border-color: #0d6efd;
+}
+/* main-banner */
+.main-banner{
+  font-size: 14px;
+}
+#thong_so1{
+  color: #696969;
+  font-weight: 500;
+  font-size: 17px;
+ padding-bottom: 0px;
+}
+
+ .thong_so{
+  color: #000;
+  font-weight: 400;
+  font-size: 37px;
+}
+.col-right {
+  padding-top: 140px;
+  text-transform: uppercase;
+}
+.col-left div{
+  line-height: 5px;
+}
+.col-right .col .btn{
+  /* width: 270px; */
+  width: 100%;
+  border: 2px solid #2c72c6;
+}
+.col-right .col:first-child{
+  background: #2c72c6;
+  border-radius: .25rem;
+  /* color: #fff; */
+}
+   /* main-content */
+   .main-content{
+       background-image:  url(https://vinfastauto.com/en//uploads/images/2021/02/25/smart-1-bg.jpg);
+       height: 700px;
+       width: 100%;
+       background-size: cover;
+   }
+   .fs-main-content{
+    position: relative;
+    top: 270px;
+    text-align: center;
+    font-size: 37px;
+    color: #fff;
+    letter-spacing: 20px;
+   }
+   .f-main-content{
+    position: relative;
+    /* bottom: 50px; */
+    top: 480px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 15px;
+   }
+   /* footer */
+ footer{
+    padding-bottom: 50px;
+  }
+  .main-footer {
+
+    justify-content: space-between;
+  }
+
+  .fs-footer {
+    font-weight: 600;
+    line-height: 30px;
+  }
+
+  .hotline .border {
+    width: 160px;
+    text-align: center;
+  }
+
+  .list-group-item {
+    border: none;
+    padding-top: 0px;
+    padding-left: 0;
+  }
+
+  .menu_footer {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #0099FF;
+    padding: 5px 0;
+  }
+
+  .fw-light {
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    line-height: 120%;
+    color:	#777777 ;
+  }
+
+  .border {
+    width: 200px;
+    height: 40px;
+    padding: 5px 10px;
+  }
+
+  .phone_size {
+    padding: 20px;
+    
+  }
+
+  .small_phut {
+    font-size: 10px;
+  }
+
+  small {
+    color: #808080;
+  }
+
+  .item_lien_ket {
+    border-radius: 50%;
+    border: 1px solid;
+    padding: 7px;
+    color: #000;
+  }
+
+  .menu_noi_dung {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+
+  .noi_dung_footer {
+    margin: 30px 0px;
+  }
+  .phone_number{
+    line-height: 0px;
+    padding: 10px 0;
+  }
+  .phut_money{
+    font-size: 10px;
+  }
+  .icon{
+    font-size: 25px;
+    padding: 5px 0;
+  }
+  .kinh_doanh{
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 600;
+  }
+  .copy{
+    color: #CCCCCC;
+    font-size: 13px;
+  }
+  .ket_noi{
+    padding: 0;
+  }
+  .hotline{
+    font-size: 14px;
+  }
+  

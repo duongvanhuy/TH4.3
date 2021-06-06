@@ -1,0 +1,802 @@
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+		<link rel="stylesheet" href="Css/style2.css">
+<style>
+    
+.header img {
+    height: 80px;
+    width: 100px;
+}
+.banner img {
+    padding-top: 100px;
+    height: 350px;
+    width: 100%;
+    
+}
+.nav-item {
+    margin-left: 20px;
+}
+
+.dropdown-menu{
+    background: rgb(195, 201, 195);
+    
+}
+.dropdown-menu :hover {
+    background-color: rgb(81, 179, 218);
+}  
+.dropdown-item{
+    color: rgb(226, 6, 6);
+}
+.wrapper{
+    text-align: center;
+    padding-top: 30px;
+}
+.danhmuc {
+    text-align: center;
+    padding-left: 150px;
+    font-size: 16px;
+}
+.danhmuc img{
+    border-radius: 40px;
+    height: 150px;
+    width: 150px;
+}
+.sanpham img{
+    transition: all 1s;	 
+   
+}
+.sanpham img:hover{
+	-webkit-transform: scale(1.1);
+
+    transform: scale(1.1);  
+}
+.medium{
+    margin-top: 30px;
+}
+.medium img{
+    border-radius: 10px;
+}
+
+</style>        
+   
+    </head>
+    <body class="bg-light"> 
+        <div class="header ">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light  ">
+                <div class="container-fluid">
+                    <!-- 1  -->
+                    <a class="navbar-brand" href="Doan.html">
+                        <img class="rounded-circle" src="img/logo.jpg">
+                    </a>
+                    <!-- 1 -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+        
+               <!-- looix id -->
+               <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" data-toggle="dropdown"> CHÓ</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                    <a class="dropdown-item t" href="#">Chó Pug</a>
+                                    <a class="dropdown-item" href="#">Chó Poodle</a>
+                                    <a class="dropdown-item" href="#">Chó Husky - Alaska - Samoyed</a>
+                                    <a class="dropdown-item" href="#">Chó Corgi</a>
+                                    <a class="dropdown-item" href="#">Chó Golden - Labrador</a>
+                                    <a class="dropdown-item" href="#">Giống Chó Khác</a>
+                                </div>                               
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" data-toggle="dropdown"> MÈO</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                    <a class="dropdown-item" href="#">Mèo Sphynx</a>
+                                    <a class="dropdown-item" href="#">Mèo Anh lông ngắn</a>                                   
+                                    <a class="dropdown-item" href="#">Mèo Munchkin</a>
+                                    <a class="dropdown-item" href="#">Giống mèo khác</a>
+                                </div>                              
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" data-toggle="dropdown"> THÚ CƯNG KHÁC</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                    <a class="dropdown-item" href="#">Bò sát</a>
+                                    <a class="dropdown-item" href="#">Hamster - Nhím - Bọ Ú</a>
+                                    <a class="dropdown-item" href="#">Thỏ cảnh</a>
+                                </div>                             
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" data-toggle="dropdown"> PHỤ KIỆN</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                    <a class="dropdown-item" href="#">Thức ăn cho chó, mèo</a>
+                                    <a class="dropdown-item" href="#">Chuồng, giường, nhà, túi</a>
+                                    <a class="dropdown-item" href="#">Dụng cụ vệ sinh</a>
+                                    
+                                </div>                               
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" data-toggle="dropdown"> DỊCH VỤ</a>
+                                <div class="dropdown-menu" >
+                                    <a class="dropdown-item" href="#">Dịch vụ trông giữ thú cưng</a>
+                                    <a class="dropdown-item" href="#">Bệnh viện thú ý</a>
+                                    <a class="dropdown-item" href="#">Phối giống chó, mèo</a>                                  
+                                </div>                               
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="Tìm Kiếm" placeholder="Tìm Kiếm" aria-label="Tìm Kiếm">
+                            <button class="btn btn-success" type="submit"><i class="fas fa-search"></i></button> 
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <div class="banner">
+                <div class="container-fluid">
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                      
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/banner.jpg" class="d-block w-100">
+                                
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="img/banner1.jpg" class="d-block w-100">
+                                
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="img/banner2.jpg" class="d-block w-100">
+                                
+                            </div>
+                        </div>                      
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end header -->
+        <div class="wrapper">
+            <div class="container">
+                <h3 class="text-info">DANH MỤC ƯA THÍCH</h3>
+                <p   > *______*</p>
+                <div class="danhmuc ">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="img/category_home_1.webp">
+                            <p>Mua bán thú cưng</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/category_home_2.webp">
+                            <p>Phối giống</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/category_home_3.webp">
+                            <p>Cộng đồng yêu thú cưng</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/category_home_5.webp">
+                            <p>Cẩm nang thú cưng</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/category_home_4.webp">
+                            <p>Thú y gần bạn</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="img/category_home_6.webp">
+                            <p>Sản phẩm và phụ kiện</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/category_home_7.webp">
+                            <p>Dịch vụ chăm sóc thú cưng</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/category_home_8.webp">
+                            <p>Sự kiện và khuyến mãi</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/category_home_9.webp">
+                            <p>Tra cứu thông tin thú cưng</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/category_home_10.webp">
+                            <p>Bảng giá chó mèo</p>
+                        </div>
+                    </div>                     
+                </div>
+                <p class="text-warning">______________________________________________________________________________________________________________________________________________________________</p>
+                <h3 class="text-info">SẢN PHẨM BÁN CHẠY</h3>
+                <p>********</p>
+                <div class="sanpham">
+                    <div class="row row-cols-1 row-cols-md-5 g-4">
+                        <div class="col">
+                            <div class="card" >
+                                <img src="https://storage.googleapis.com/vinfast-data-01/styles/news_360x200/public/2021_03/VF33_front.jpg?itok=pv_OsCrS" class="card-img-top" >
+                               
+                                <div class="card-body">
+                                    <h5 class="card-title">Bán Chó Cảnh</h5>
+                                    <p class="card-text">Chó Akita Inu màu vàng-Kali</p>
+                                    
+                                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border-radius: 20px ;">
+                                        Xem Chi Tiết
+                                    </button>
+                                      
+                                      <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header bg-warning " >
+                                                    <h5 class="modal-title " id="exampleModalLabel" >Mô Tả</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    Bán chú chó Akita con thuần chủng có tại AZPET Shop tại Huế <br>
+
+                                                    ✔️ Tên: Bali <br>
+                                                                                               
+                                                    ✔️ Giống: chó Akita<br>
+                                                    
+                                                    ✔️ Màu sắc: vàng<br>
+                                                    
+                                                    ✔️ Giới tính: đực<br>
+                                                    
+                                                    ✔️ Tuổi: 2 tháng tuổi.
+                                                    Khách hàng hoàn toàn an tâm khi mua chó Akia Inu thuần chủng của thương hiệu chúng tôi vì:<br>
+                                                    📌 Hợp đồng mua bán rõ ràng.<br>
+                                                    📌Bảo hành sức khỏe dài hạn.<br>
+                                                    📌Tiêm phòng, tẩy giun đầy đủ.<br>
+                                                    📌Tư vấn chăm sóc, nuôi chó Akita Inu con trọn đời.<br>
+                                                    📌Bác sĩ thú y của Phòng khám AZPET Clinic thăm khám tận nhà.<br>
+                                                    📌Chó con có nguồn gốc rõ ràng. Được kiểm tra nghiêm ngặt về sức khỏe mới giao cho khách hàng.<br>
+                                                    Trên hệ thống của AZPET của chúng tôi luôn có sẵn hàng trăm chú chó Akita Inu con thuần chủng, đầy đủ màu sắc, để khách hàng lựa chọn.<br>
+                                                    🌻 Hãy đến ngay các cửa hàng, trang trại của AZPET – Công ty Cổ phần AZPET Việt nam để lựa cho mình một bé chó Akita Inu con ưng ý bạn nhé.<br>
+                                                    HOTLINE: 0792545710.
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" >
+                                <img src="img/sp1.jpg" class="card-img-top" >
+                                <div class="card-body">
+                                    <h5 class="card-title">Bán Chó Cảnh</h5>
+                                    <p class="card-text">Hai chú chó Alaska nâu đỏ</p>
+                                    
+                                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border-radius: 20px ;">
+                                        Xem Chi Tiết
+                                    </button>
+                                      
+                                      <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Mô Tả</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    Bán 2 cún Alaska con thuần chủng tại hệ thống trại giống, cửa hàng của AZPET Huế.<br>
+
+                                                    ✔️ Tên: Lu và Lux <br>
+                                                                                               
+                                                    ✔️ Giống: chó Alaska Malamute<br>
+                                                    
+                                                    ✔️ Màu: nâu đỏ<br>
+                                                    
+                                                    ✔️ Giới tính: 2 đực<br>
+                                                    
+                                                    ✔️ Tuổi: 2 tháng tuổi.
+                                                    Khách hàng hoàn toàn an tâm khi mua chó Alaska con của thương hiệu chúng tôi vì:<br>
+                                                    📌 Hợp đồng mua bán rõ ràng.<br>
+                                                    📌Bảo hành sức khỏe dài hạn.<br>
+                                                    📌Tiêm phòng, tẩy giun đầy đủ.<br>
+                                                    📌Tư vấn chăm sóc, nuôi chó, nuôi mèo cảnh trọn đời.<br>
+                                                    📌Bác sĩ thú y của Phòng khám AZPET Clinic thăm khám tận nhà.<br>
+                                                    📌Chó con có nguồn gốc rõ ràng. Được kiểm tra nghiêm ngặt về sức khỏe mới giao cho khách hàng.<br>
+                                                    Trên hệ thống của AZPET của chúng tôi luôn có sẵn hàng trăm chú cún Alaska con thuần chủng, đầy đủ màu sắc, để khách hàng lựa chọn.<br>
+                                                    🌻 Hãy đến ngay các cửa hàng, trang trại của AZPET – Công ty Cổ phần AZPET Việt nam để lựa cho mình một bé chó Akita Inu con ưng ý bạn nhé.<br>
+                                                    HOTLINE: 0792545710.
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                   
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" >
+                                <img src="img/sp2.jpg" class="card-img-top" >
+                                <div class="card-body">
+                                    <h5 class="card-title">Bán Chó Cảnh</h5>
+                                    <p class="card-text">Đàn chó Poodle màu trắng</p>
+                                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border-radius: 20px ;">
+                                        Xem Chi Tiết
+                                    </button>
+                                  
+                                  <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header bg-warning">
+                                                <h5 class="modal-title" id="exampleModalLabel">Mô Tả</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Bán 4 chú cún Poodle con thuần chủng tại hệ thống trại giống, cửa hàng của AZPET Huế.<br>                                                                                         
+                                                ✔️ Giống: chó Poodle
+                                                ✔️ Màu: trắng<br>                                              
+                                                ✔️ Giới tính: đực<br>
+                                                ✔️ Tuổi: hơn 2 tháng tuổi.
+                                                Khách hàng hoàn toàn an tâm khi mua chó Poodle con của thương hiệu chúng tôi vì:<br>
+                                                📌 Hợp đồng mua bán rõ ràng.<br>
+                                                📌Bảo hành sức khỏe dài hạn.<br>
+                                                📌Tiêm phòng, tẩy giun đầy đủ.<br>
+                                                📌Tư vấn chăm sóc, nuôi chó, nuôi mèo cảnh trọn đời.<br>
+                                                📌Bác sĩ thú y của Phòng khám AZPET Clinic thăm khám tận nhà.<br>
+                                                📌Chó con có nguồn gốc rõ ràng. Được kiểm tra nghiêm ngặt về sức khỏe mới giao cho khách hàng.<br>
+                                                Trên hệ thống của AZPET của chúng tôi luôn có sẵn hàng trăm chú chó Poodle con thuần chủng, đầy đủ màu sắc, để khách hàng lựa chọn.<br>
+                                                🌻 Hãy đến ngay các cửa hàng, trang trại của AZPET – Công ty Cổ phần AZPET Việt nam để lựa cho mình một bé chó Akita Inu con ưng ý bạn nhé.<br>
+                                                HOTLINE: 0792545710.
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" >
+                                <img src="img/sp3.jpg" class="card-img-top" >
+                                <div class="card-body">
+                                    <h5 class="card-title">Bán Mèo Cảnh</h5>
+                                    <p class="card-text">Hai bé mèo ALN màu xám </p>
+                                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border-radius: 20px ;">
+                                        Xem Chi Tiết
+                                    </button>
+                                  
+                                  <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Mô Tả</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Bán 2 bé mèo ALN con thuần chủng có tại AZPET Huế.<br>                                                                                    
+                                                ✔️ Giống: mèo Anh lông ngắn (ALN)<br>
+                                                ✔️  Màu sắc: xám xanh<br>
+                                                ✔️ Giới tính: 1 đực, 1 cái<br>                                               
+                                                ✔️ Tuổi: hơn 2 tháng tuổi.
+                                                Khách hàng hoàn toàn an tâm khi mua mèo ALN con thuần chủng của thương hiệu chúng tôi vì:<br>
+                                                📌 Hợp đồng mua bán rõ ràng.<br>
+                                                📌Bảo hành sức khỏe dài hạn.<br>
+                                                📌Tiêm phòng, tẩy giun đầy đủ.<br>
+                                                📌Tư vấn chăm sóc, nuôi mèo ALN con trọn đời.<br>
+                                                📌Bác sĩ thú y của Phòng khám AZPET Clinic thăm khám tận nhà.<br>
+                                                📌Chó con có nguồn gốc rõ ràng. Được kiểm tra nghiêm ngặt về sức khỏe mới giao cho khách hàng.<br>
+                                                Trên hệ thống của AZPET của chúng tôi luôn có sẵn hàng trăm bé mèo Anh lông ngắn  thuần chủng, đầy đủ màu sắc, để khách hàng lựa chọn.<br>
+                                                🌻 Hãy đến ngay các cửa hàng, trang trại của AZPET – Công ty Cổ phần AZPET Việt nam để lựa cho mình một bé chó Akita Inu con ưng ý bạn nhé.<br>
+                                                HOTLINE: 0792545710.
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" >
+                                <img src="img/sp6.jpg" class="card-img-top" >
+                                <div class="card-body">
+                                    <h5 class="card-title">Bán Mèo Cảnh</h5>
+                                    <p class="card-text">Mèo Munchkin màu Bicolor </p>
+                                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border-radius: 20px ;">
+                                        Xem Chi Tiết
+                                    </button>
+                                  
+                                  <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Mô Tả</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Bán bé mèo chân ngắn, tai cụp thuần chủng tại AZPET Huế.<br>
+
+                                                ✔️ Tên: Sá Síu<br>
+                                                                                           
+                                                ✔️Giống: mèo Munchkin (chân ngắn) + tai cụp<br>
+                                                
+                                                ✔️ Màu sắc: Bicolor<br>
+                                                
+                                                ✔️ Giới tính:  đực<br>
+                                                
+                                                ✔️ Tuổi: 2 tháng tuổi.
+                                                Khách hàng hoàn toàn an tâm khi mua mèo Munchkin con thuần chủng của thương hiệu chúng tôi vì:<br>
+                                                📌 Hợp đồng mua bán rõ ràng.<br>
+                                                📌Bảo hành sức khỏe dài hạn.<br>
+                                                📌Tiêm phòng, tẩy giun đầy đủ.<br>
+                                                📌Tư vấn chăm sóc, nuôi chó Akita Inu con trọn đời.<br>
+                                                📌Bác sĩ thú y của Phòng khám AZPET Clinic thăm khám tận nhà.<br>
+                                                📌Chó con có nguồn gốc rõ ràng. Được kiểm tra nghiêm ngặt về sức khỏe mới giao cho khách hàng.<br>
+                                                Trên hệ thống của AZPET của chúng tôi luôn có sẵn hàng trăm chú chó Akita Inu con thuần chủng, đầy đủ màu sắc, để khách hàng lựa chọn.<br>
+                                                🌻 Hãy đến ngay các cửa hàng, trang trại của AZPET – Công ty Cổ phần AZPET Việt nam để lựa cho mình một bé chó Akita Inu con ưng ý bạn nhé.<br>
+                                                HOTLINE: 0792545710.
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" >
+                                <img src="img/sp5.jpg" class="card-img-top" >
+                                <div class="card-body">
+                                    <h5 class="card-title">Bán Mèo Cảnh</h5>
+                                    <p class="card-text">Mèo Munchkin tai cụp </p>
+                                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border-radius: 20px ;">
+                                        Xem Chi Tiết
+                                    </button>
+                                  
+                                  <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Mô Tả</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Bán bé mèo chân ngắn, tai cụp thuần chủng tại AZPET Huế.<br>
+
+                                                ✔️  Tên: Sam <br>
+                                                                                           
+                                                ✔️  Giống: mèo Munchkin (chân ngắn) + tai cụp<br>
+                                                
+                                                ✔️  Màu sắc: Bicolor<br>
+                                                
+                                                ✔️  Giới tính:  đực<br>
+                                                
+                                                ✔️ Tuổi: 2 tháng tuổi.
+                                                Khách hàng hoàn toàn an tâm khi mua mèo Munchkin con thuần chủng của thương hiệu chúng tôi vì:<br>
+                                                📌 Hợp đồng mua bán rõ ràng.<br>
+                                                📌Bảo hành sức khỏe dài hạn.<br>
+                                                📌Tiêm phòng, tẩy giun đầy đủ.<br>
+                                                📌Tư vấn chăm sóc, nuôi chó, nuôi mèo con trọn đời.<br>
+                                                📌Bác sĩ thú y của Phòng khám AZPET Clinic thăm khám tận nhà.<br>
+                                                📌Chó con có nguồn gốc rõ ràng. Được kiểm tra nghiêm ngặt về sức khỏe mới giao cho khách hàng.<br>
+                                                Trên hệ thống của AZPET của chúng tôi luôn có sẵn hàng trăm bé mèo chân ngắn con  thuần chủng, đầy đủ màu sắc, để khách hàng lựa chọn.<br>
+                                                🌻 Hãy đến ngay các cửa hàng, trang trại của AZPET – Công ty Cổ phần AZPET Việt nam để lựa cho mình một bé chó Akita Inu con ưng ý bạn nhé.<br>
+                                                HOTLINE: 0792545710.
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" >
+                                <img src="img/sp06.jpg" class="card-img-top" >
+                                <div class="card-body">
+                                    <h5 class="card-title">Bán Chó Cảnh</h5>
+                                    <p class="card-text">Chó Corgi màu vàng trắng </p>
+                                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border-radius: 20px ;">
+                                        Xem Chi Tiết
+                                    </button>
+                                  
+                                  <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Mô Tả</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Bán bé cún Corgi Pembroke con thuần chủng tại hệ thống trại giống, cửa hàng  của AZPET Huế.<br>
+
+                                                ✔️  Tên: Tí Nị <br>                                                                                     
+                                                ✔️ Giống: chó Corgi Pembroke<br>                                                
+                                                ✔️ Màu: Vàng – trắng<br>
+                                                ✔️ Giới tính:  đực<br>
+                                                ✔️ Tuổi: hơn 2 tháng tuổi.
+                                                Khách hàng hoàn toàn an tâm khi mua chó Corgi con của thương hiệu chúng tôi vì:<br>
+                                                📌 Hợp đồng mua bán rõ ràng.<br>
+                                                📌Bảo hành sức khỏe dài hạn.<br>
+                                                📌Tiêm phòng, tẩy giun đầy đủ.<br>
+                                                📌Tư vấn chăm sóc, nuôi chó, nuôi mèo cảnh trọn đời.<br>
+                                                📌Bác sĩ thú y của Phòng khám AZPET Clinic thăm khám tận nhà.<br>
+                                                📌Chó con có nguồn gốc rõ ràng. Được kiểm tra nghiêm ngặt về sức khỏe mới giao cho khách hàng.<br>
+                                                Trên hệ thống của AZPET của chúng  tôi luôn có sẵn hàng chục chú chó Corgi con  thuần chủng, đầy đủ màu sắc, để khách hàng lựa chọn<br>
+                                                🌻 Hãy đến ngay các cửa hàng, trang trại của AZPET – Công ty Cổ phần AZPET Việt nam để lựa cho mình một bé chó Akita Inu con ưng ý bạn nhé.<br>
+                                                HOTLINE: 0792545710.
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                             
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" >
+                                <img src="img/sp02.jpg" class="card-img-top" >
+                                <div class="card-body">
+                                    <h5 class="card-title">Bán Chó Cảnh</h5>
+                                    <p class="card-text">Chó Samoyed màu trắng </p>
+                                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border-radius: 20px ;">
+                                        Xem Chi Tiết
+                                    </button>
+                                  
+                                  <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Mô Tả</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                CHÓ SAMOYED CUTE PHÔ MAI QUE ĐANG CHỜ ĐÓN CÁC ĐẤN SEN ĐÓN VỀ TẠI AZPET Huế.<br>
+
+                                                ✔️ Tên: Kido <br>
+                                                                                           
+                                                ✔️  Giống: chó Samoyed<br>
+                                                
+                                                ✔️  Màu sắc: màu trắng<br>
+                                                
+                                                ✔️ Giới tính:  đực<br>
+                                                
+                                                ✔️ Tuổi:hơn 2 tháng tuổi.
+                                                Khách hàng hoàn toàn an tâm khi mua  chó Samoyed con thuần chủng của thương hiệu chúng tôi vì:<br>
+                                                📌 Hợp đồng mua bán rõ ràng.<br>
+                                                📌Bảo hành sức khỏe dài hạn.<br>
+                                                📌Tiêm phòng, tẩy giun đầy đủ.<br>
+                                                📌Tư vấn chăm sóc, nuôi chó, nuôi mèo cảnh trọn đời.<br>
+                                                📌Bác sĩ thú y của Phòng khám AZPET Clinic thăm khám tận nhà.<br>
+                                                📌Chó con có nguồn gốc rõ ràng. Được kiểm tra nghiêm ngặt về sức khỏe mới giao cho khách hàng.<br>
+                                                Trên hệ thống của AZPET của chúng tôi luôn có sẵn hàng trăm chú chó Samoyed  thuần chủng, đầy đủ màu sắc, để khách hàng lựa chọn.<br>
+                                                🌻 Hãy đến ngay các cửa hàng, trang trại của AZPET – Công ty Cổ phần AZPET Việt nam để lựa cho mình một bé chó Akita Inu con ưng ý bạn nhé.<br>
+                                                HOTLINE: 0792545710.
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" >
+                                <img src="img/sp07.jpg" class="card-img-top" >
+                                <div class="card-body">
+                                    <h5 class="card-title">Bán Chó Cảnh</h5>
+                                    <p class="card-text">Siêu phẩm Golden màu vàng </p>
+                                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border-radius: 20px ;">
+                                        Xem Chi Tiết
+                                    </button>
+                                  
+                                  <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Mô Tả</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Bán chú chó Golden Retriever con thuần chủng tại hệ thống trại giống, cửa hàng của AZPET Huế.<br>
+
+                                                ✔️ Tên: Khoai Tây <br>
+                                                                                           
+                                                ✔️ Giống: chó Golden Retriever<br>
+                                                
+                                                ✔️ Màu: vàng<br>
+                                                
+                                                ✔️ Giới tính:  đực<br>
+                                                
+                                                ✔️ Tuổi: hơn 2 tháng tuổi.
+                                                Khách hàng hoàn toàn an tâm khi mua chó Alaska con của thương hiệu chúng tôi vì:<br>
+                                                📌 Hợp đồng mua bán rõ ràng.<br>
+                                                📌Bảo hành sức khỏe dài hạn.<br>
+                                                📌Tiêm phòng, tẩy giun đầy đủ.<br>
+                                                📌Tư vấn chăm sóc, nuôi chó, nuôi mèo cảnh trọn đời.<br>
+                                                📌Bác sĩ thú y của Phòng khám AZPET Clinic thăm khám tận nhà.<br>
+                                                📌Chó con có nguồn gốc rõ ràng. Được kiểm tra nghiêm ngặt về sức khỏe mới giao cho khách hàng.<br>
+                                                Trên hệ thống của AZPET của chúng tôi luôn có sẵn hàng chục chú chó Golden con thuần chủng, đầy đủ màu sắc, để khách hàng lựa chọn.<br>
+                                                🌻 Hãy đến ngay các cửa hàng, trang trại của AZPET – Công ty Cổ phần AZPET Việt nam để lựa cho mình một bé chó Akita Inu con ưng ý bạn nhé.<br>
+                                                HOTLINE: 0792545710.
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" >
+                                <img src="img/sp05.jpg" class="card-img-top" >
+                                <div class="card-body">
+                                    <h5 class="card-title">Bán Mèo Cảnh</h5>
+                                    <p class="card-text">Mèo Nhân sư (Sphynx)</p>
+                                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border-radius: 20px ;">
+                                        Xem Chi Tiết
+                                    </button>
+                                  
+                                  <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Mô Tả</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Bán bé mèo Sphynx con thuần chủng tại hệ thống trại giống, cửa hàng của AZPET Huế.<br>
+
+                                                ✔️ Tên: Menfuisu<br>
+                                                                                           
+                                                ✔️ Giống: mèo không lông Sphynx (mèo nhân sư)<br>
+                                                
+                                                ✔️  Màu sắc:  trắng<br>
+                                                
+                                                ✔️ Giới tính: cái<br>
+                                                
+                                                ✔️ Tuổi: hơn 2 tháng tuổi.
+                                                Khách hàng hoàn toàn an tâm khi mua mèo không lông Sphynx con thuần chủng của thương hiệu chúng tôi vì:<br>
+                                                📌 Hợp đồng mua bán rõ ràng.<br>
+                                                📌Bảo hành sức khỏe dài hạn.<br>
+                                                📌Tiêm phòng, tẩy giun đầy đủ.<br>
+                                                📌Tư vấn chăm sóc, nuôi chó,nuôi mèo cảnh trọn đời.<br>
+                                                📌Bác sĩ thú y của Phòng khám AZPET Clinic thăm khám tận nhà.<br>
+                                                📌Mèo con có nguồn gốc rõ ràng. Được kiểm tra nghiêm ngặt về sức khỏe mới giao cho khách hàng.<br>
+                                                Trên hệ thống của AZPET của chúng tôi luôn có sẵn hàng chục bé mèo nhân sư con  thuần chủng, đầy đủ màu sắc, để khách hàng lựa chọn.<br>
+                                                🌻 Hãy đến ngay các cửa hàng, trang trại của AZPET – Công ty Cổ phần AZPET Việt nam để lựa cho mình một bé chó Akita Inu con ưng ý bạn nhé.<br>
+                                                HOTLINE: 0792545710.
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                        
+                </div> 
+                <p class="text-warning">_______________________________________________________________________________________________________________________________________________________________________________</p>
+                <h3 class="text-info">TIN TỨC</h3>   
+                <p>**********</p>
+                <div class="medium">
+                    <div class="row ">
+                        <div class="col-md-6">
+                            <img src="img/tt0.jpg">
+                            <h6 class="text-warning">Chó Poodle lông màu xám xanh, xám khói, xám trắng, đen & bò sữa xám giá bao nhiêu tiền ?</h6>
+                            <p>Chó Poodle lông xám  đã và đang trở thành một trong những giống chó được yêu thích nhất trên thế giới. Đặc biệt với các màu sắc cực kỳ hiếm như Poodle lông xám [...]</p>
+                        </div>
+                        
+                        <div class="col-md-2">
+                            <img src="img/tt1.jpg" style="height: 125px; width: 150px;"> 
+                            <img src="img/tt2.jpg" style="height: 125px; width: 150px; margin-top: 40px;">
+                            <img src="img/tt3.jpg" style="height: 125px; width: 150px; margin-top: 50px;">
+    
+    
+                        </div>
+                        <div class="col-md-4">
+                            <h6 class="text-warning" style="margin-top: 10px;">Chó Mini Schnauzer giá bao nhiêu tiền? Địa chỉ mua chó ông già Schnauzer tại Dogily uy tín Tphcm, Hà nội ở đâu?</h6>
+                            <p>Chó Mini Schnauzer hay còn gọi là chó sục Đức, chó “ông già”. Đây là một dòng chó đẹp, rất thông [...]</p> 
+                            <h6 class="text-warning" style="margin-top: 70px;">Mèo Toyger giá bao nhiêu tiền? Địa chỉ mua bán mèo Toyger con của Dogily Petshop Tphcm, Hà nội ở đâu?</h6>
+                            <p>Tiếng gọi nơi hoang dã ngay trong phòng khách nhà bạn, đó là chú mèo Toyger với vằn hổ ấn tượng. [...]</p>
+                            <h6 class="text-warning" style="margin-top: 80px;">Chó Poodle lông màu đen giá bao nhiêu tiền? Mua bán Poodle đen con thuần chủng uy tín tại Dogily Petshop Tphcm Hà nội ở đâu?</h6>
+                            <p>Chó Poodle màu đen giá bao nhiêu, mua chó Poodle màu đen ở đâu… đã và đang là những câu hỏi [...]</p>
+                   
+                        </div>
+                    </div>   
+                </div>
+             
+            </div>
+        </div> <!--end wrapper -->
+        <div class="footer ">
+            <div class="container-fluid ">
+                <div class="row   bg-warning pt-3 mt-4">
+                    <div class="col-md-3 ">
+                        <h5>TẢI ỨNG DỤNG AZPET</h5>                  
+                        <img src="img/qr_code.png" style="height: 125px; ">                       
+                    </div>
+                    <div class="col-md-3">
+                        <h5>HỖ TRỢ KHÁCH HÀNG</h5>
+                        <p> Liên hệ hỗ trợ <br>
+                            Những câu hỏi thường gặp<br>
+                            Chính sách bảo mật thông tin<br>
+                            Cơ chế giải quyết khiếu nại tranh chấp</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>VỀ CHÚNG TÔI</h5>
+                        <p>Giới thiệu<br>
+                            Tuyển dụng<br>
+                            Quy chế hoạt động</p>
+                        
+                    </div>
+                    <div class="col-md-3">
+                        <h5>CÔNG TY CỔ PHẦN AZPET</h5>
+                        <p> Trụ Sở: <br>
+                            Số 59, Văn Cao, Liễu Giai, Ba Đình, Hà Nội.<br>
+                            
+                            Trại nhân giống:<br>
+                            Quỳnh Hội, Quỳnh Phụ, Thái Bình.<br>
+                            
+                            Hotline: 0888.08.3388</p>
+                    </div>
+                    <div class="col-md-12 bg-secondary text-center pt-2">
+                        <p>Bản quyền thuộc về Trần Thị Kiều Trinh CNTTB K18</p>
+                    </div>
+                </div>
+               
+                
+    
+            </div>
+            
+        </div>
+      
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
+   
+    </body>
+</html>
