@@ -69,3 +69,13 @@ function runImg(a){
         document.getElementById('runImg').src = "https://shop.vinfastauto.com/on/demandware.static/-/Sites-app_vinfast_vn-Library/default/dwa00e4fb3/images/vfast/hinh-anh-an-toan-xe-VinFast-President-he-thong-tui-khi.jpg";
     }
 }
+
+$(document).ready(function () {
+    $(window).scroll(function () {
+      if ($(this).scrollTop()) {
+        $('.f-header').addClass('sticky');
+      } else {
+        $('.f-header').removeClass('sticky');
+      };
+    });
+});

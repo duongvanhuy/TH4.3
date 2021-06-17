@@ -15,56 +15,9 @@
     integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="../css/style.css" >
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
   <title>Website thương hiệu VinFast</title>
   <style>
-    .chinh_phuc_the_gioi{
-      text-align: center;
-      font-size: 18px;
-      padding-top: 20px;
-      line-height: 140%;
-    }
-    .header-banner{
-      background: url(https://storage.googleapis.com/vinfast-data-01/home_bg_top.jpg);
-    }
-   .xe_o_to{
-     padding: 50px 0;
-     font-size: 35px;
-     /* giãi cách các chữ trong 1 hàng */
-     letter-spacing: 20px;
-     text-align: center;
-     text-transform: uppercase;
-   }
-   .border-top .xe_o_to{
-     padding-top: 50px;
-     padding-bottom: 30px;
-   }
-   .xe_may_dien{
-     text-align: center;
-     font-size: 24px;
-     text-transform: uppercase;
-     font-weight: 100;
-
-   }
-   .gach_xe_may{
-     color: blue;
-   }
-   .thanh_lich{
-     /* text-align: center; */
-     font-size: 20px;
-     color: #CCCCCC;
-     text-transform: uppercase;
-   }
-   .owl-item{
-     margin-right: 0;
-   }
-   .video_noi_bat{
-     margin-bottom: 40px;
-   }
-  .new_word{
-    background-image: url(https://storage.googleapis.com/vinfast-data-01/bg-news-front.png);
-  }
-
 
   </style>
 </head>
@@ -72,7 +25,7 @@
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-light main_header">
-      <div class="container-fluid f-header">
+      <div class="container-fluid f-header px-3">
         <a class="navbar-brand" href="#">
           <img width="51" height="51px" src="https://vinfast.vin/wp-content/uploads/vinfast-logo-11.png" alt="">
           <span class="vinFast">vinfast</span>
@@ -128,13 +81,13 @@
             </li>
           </ul>
           <form class="d-flex">
-            <button class="btn btn-outline-light mx-5 dang_ki_lai_thu " type="submit">Đăng kí lái thử</button>
-            <span class="py-1 pe-3"> <a class="person" href="#"><i class="fa fa-user " aria-hidden="true"></i></a>
+            <button class="btn btn-outline-light mx-5 dang_ki_lai_thu " type="submit"><a href="dang_ki.html"> Đăng kí lái thử</a></button> 
+            <span class="py-1 pe-3 person"> <a class="person" href="../doAnBootstrap/dang_ki.html"><i class="fa fa-user " aria-hidden="true"></i></a>
             </span>
-            <div class="border-end py-1">
+            <div class="border-end py-1 language">
               <span class="me-3">VN</span>
             </div>
-            <div class="border-end px-3 py-1">
+            <div class="border-end px-3 py-1 language">
               <span>EN</span>
             </div>
           </form>
@@ -144,6 +97,7 @@
     </nav>
   </header>
   <content>
+    <!-- Banner -->
     <div class="banner">
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -177,124 +131,113 @@
         </button>
       </div>
     </div>
-    <div class="header-banner">
-      <div class="f-banner">
+    <!-- header-banner -->
+    <!-- <div class="header-banner"> -->
+      <div class="f-banner py-5">
         <div class="container">
           <div class="card bg-dark text-white">
             <img src="https://storage.googleapis.com/vinfast-data-01/top_slide_1.webp" class="card-img" alt="">
             <div class="card-img-overlay">
-              <!-- <h5 class="card-title">Công nghệ thông minh cho tương lai</h5>
-                  <p class="card-text">Đặt khách hàng làm trọng tâm, cá mẫu xe của VinFast được ứng dụng những công nghệ 
-                      hàng đầu thế giới như tria tuệ nhân tạo, máy học và học sâu cùng các tính năng tự hành cấp độ cao,
-                       mở ra không gian hưởng thụ tiện nghi giả trị hoàn hảo cùng các trải nghiệm cá nhất hóa đáng giá nhất</p>
-                   -->
             </div>
           </div>
         </div>
-  
-      </div>
+
+      
       <div class="fs-content">
         <h3 class="pt-5">Hành trình chinh phục thế giới</h3>
         <div class="owl-carousel">
+          <!--  -->
           <div class="item noi_dung-item">
             <a href="#" class="text-dark">
-              <div class="row">
-                <div class="col">
-                  <span class="fs-1 noi_dung_item"><strong> &ldquo;</strong></span>
+              <div class="row row-cols-3 row-cols-sm-3 row-cols-md-3">
+                <div class="col col-1 col-md-1 col-sm-1">
+                  <span class="fs-1  noi_dung_item"><strong> &ldquo;</strong></span>
                 </div>
-                <div class="col-md-9 chinh_phuc_the_gioi">
-                 <p>VinFast thương hiệu ô tô Việt Nam thuộc
-                  tập đoàn VinGroup là điện hình tiêu biểu nhanh chống cho việc phục hồi và có bước tiến nhanh chống sau khi
-                  Việt Nam chống Covid..</p> 
+                <div class="col-md-10 chinh_phuc_the_gioi col-10 col-sm-10">
+                  <p>VinFast thương hiệu ô tô Việt Nam thuộc
+                    tập đoàn VinGroup là điện hình tiêu biểu nhanh chống cho việc phục hồi và có bước tiến nhanh chống
+                    sau khi
+                    Việt Nam chống Covid..</p>
                   <strong>- Bloombeg -</strong>
                 </div>
-                <div class="col">
+                <div class="col col-md-1 col-1 col-sm-1">
                   <span class="fs-1 noi_dung_item"><strong> &rdquo;</strong></span>
                 </div>
               </div>
-              <!-- <p><span class="fs-1 noi_dung_item"><strong> &ldquo;</strong></span> VinFast thương hiệu ô tô Việt Nam thuộc
-                tập đoàn VinGroup là điện hình tiêu biểu nhanh chống cho việc phục hồi và có bước tiến nhanh chống sau khi
-                Việt Nam chống Covid.. <span class="fs-1"><strong>&rdquo;</strong></p>
-              <p><strong>- Bloombeg -</strong></p> -->
             </a>
           </div>
-  
+          <!--  -->
+          <!--  -->
           <div class="item noi_dung-item">
             <a href="#" class="text-dark">
-              <div class="row">
-                <div class="col">
-                  <span class="fs-1 noi_dung_item"><strong> &ldquo;</strong></span>
+              <div class="row row-cols-3 row-cols-sm-3 row-cols-md-3">
+                <div class="col col-1 col-md-1 col-sm-1">
+                  <span class="fs-1  noi_dung_item"><strong> &ldquo;</strong></span>
                 </div>
-                <div class="col-md-9 chinh_phuc_the_gioi">
-                 <p>Trong ngành công nghiệp xe hơi, việc
-                  thiết kế và chế tạo không chỉ một mà hai chiếc xe chỉ trong vòng 12 tháng là tốc độ không tưởng trong nghành</p> 
+                <div class="col-md-10 chinh_phuc_the_gioi col-10 col-sm-10">
+                  <p>Trong ngành công nghiệp xe hơi, việc
+                    thiết kế và chế tạo không chỉ một mà hai chiếc xe chỉ trong vòng 12 tháng là tốc độ không tưởng
+                    trong nghành</p>
                   <strong>- Top Gear -</strong>
                 </div>
-                <div class="col">
+                <div class="col col-md-1 col-1 col-sm-1">
                   <span class="fs-1 noi_dung_item"><strong> &rdquo;</strong></span>
                 </div>
               </div>
-              <!-- <p><span class="fs-1 noi_dung_item"><strong>&ldquo;</strong></span>“Trong ngành công nghiệp xe hơi, việc
-                thiết kế và chế tạo không chỉ một mà hai chiếc xe chỉ trong vòng 12 tháng là tốc độ không tưởng”<span
-                  class="fs-1"><strong>&rdquo;</strong></p>
-              <p><strong>- Top Gear -</strong></p> -->
             </a>
-  
           </div>
-          <div class="item noi_dung-item">
+          <!--  -->
+           <!--  -->
+           <div class="item noi_dung-item">
             <a href="#" class="text-dark">
-              <div class="row">
-                <div class="col">
-                  <span class="fs-1 noi_dung_item"><strong> &ldquo;</strong></span>
+              <div class="row row-cols-3 row-cols-sm-3 row-cols-md-3">
+                <div class="col col-1 col-md-1 col-sm-1">
+                  <span class="fs-1  noi_dung_item"><strong> &ldquo;</strong></span>
                 </div>
-                <div class="col-md-9 chinh_phuc_the_gioi">
-                 <p> Chìa khóa để đạt được thành công ngay từ
-                  khâu sản xuất của VinFast chính là các đối tác mạnh mẽ như ABB, Bosch, Magna Steyr và Siemens</p>
+                <div class="col-md-10 chinh_phuc_the_gioi col-10 col-sm-10">
+                  <p>Chìa khóa để đạt được thành công ngay từ
+                    khâu sản xuất của VinFast chính là các đối tác mạnh mẽ như ABB, Bosch, Magna Steyr và Siemens</p>
                   <strong>-CNBC-</strong>
                 </div>
-                <div class="col">
+                <div class="col col-md-1 col-1 col-sm-1">
                   <span class="fs-1 noi_dung_item"><strong> &rdquo;</strong></span>
                 </div>
               </div>
-              <!-- <p><span class="fs-1 noi_dung_item"><strong>&ldquo;</strong></span>Chìa khóa để đạt được thành công ngay từ
-                khâu sản xuất của VinFast chính là các đối tác mạnh mẽ như ABB, Bosch, Magna Steyr và Siemens <span
-                  class="fs-1"><strong>&rdquo;</strong></p>
-              <p><strong>-CNBC-</strong></p> -->
             </a>
           </div>
-        </div>
-        <div class="border-top xe_o_to">
-          <p >Xe ô tô</p>
-        </div>
+          <!--  -->
         
+
+      </div>
+      <div class="border-top xe_o_to">
+        <p>Xe ô tô</p>
       </div>
     </div>
-   
-    <!--  -->
+  </div>
+    <!-- main-content -->
     <div class="main-content">
-      <!-- <h3>Xe ô tô</h3> -->
       <div class="fs-banner_S">
         <div class="owl-carousel owl-theme " style="margin-right:0 ;">
-          <div class="item"> <a href="">
+          <div class="item"> <a href="../doAnBootstrap/chi_tiet01.html">
               <div id="content">
                 <p class="fs-6"><strong>Dòng Suv</strong> </p>
                 <p class="fs-5">Chinh phục mọi cung đường</p>
                 <h5>lux sa2.0</h5>
               </div>
               <img src="https://storage.googleapis.com/vinfast-data-01/bg-title-car.png" alt="">
-              
-                  <ul >
-                    <li>Thiết kế sang trọng, mạnh mẽ</li>
-                    <li>Hệ dẫn động 4 bánh toàn thời gian cho cảm giác lái đàm áp mà êm ái</li>
-                    <li>Khuân gầm liền khối vũng chắc chuẩn Châu Âu tối ưu</li>
-                    <li>Chuẩn an toàn cao cấp 5 sao ASIAN NCAP</li>
-                  </ul>
+
+              <ul>
+                <li>Thiết kế sang trọng, mạnh mẽ</li>
+                <li>Hệ dẫn động 4 bánh toàn thời gian cho cảm giác lái đàm áp mà êm ái</li>
+                <li>Khuân gầm liền khối vũng chắc chuẩn Châu Âu tối ưu</li>
+                <li>Chuẩn an toàn cao cấp 5 sao ASIAN NCAP</li>
+              </ul>
               <h5 class="chi_tiet">Chi tiết</h5>
               <img src="https://vinfastauto.com/themes/porto/img/vinfast/logo_gray.svg" width="50px" height="51px"
                 alt="">
               <img src="https://storage.googleapis.com/vinfast-data-01/president.png" alt="">
             </a></div>
-          <div class="item"> <a href="">
+          <div class="item"> <a href="../doAnBootstrap/chi_tiet01.html">
               <div id="content">
                 <p class="fs-6"><strong>Dòng Suv</strong> </p>
                 <p class="fs-5">Cùng bạn bứt phá mọi giới hạn</p>
@@ -315,7 +258,7 @@
                 alt="">
               <img src="https://storage.googleapis.com/vinfast-data-01/VFe34.png" alt="">
             </a></div>
-          <div class="item"> <a href="">
+          <div class="item"> <a href="../doAnBootstrap/chi_tiet01.html">
               <div id="content">
                 <p class="fs-6"><strong>Dòng Sendan</strong> </p>
                 <p class="fs-5">Tận hưởng từng khoảnh khắc</p>
@@ -335,7 +278,7 @@
                 alt="">
               <img src="https://storage.googleapis.com/vinfast-data-01/2LuxSA.png" alt="">
             </a></div>
-          <div class="item"> <a href="">
+          <div class="item"> <a href="../doAnBootstrap/chi_tiet01.html">
               <div id="content">
                 <p class="fs-6"><strong>Dòng hatchback</strong> </p>
                 <p class="fs-5">tối ưu mọi trải nghiệm</p>
@@ -357,7 +300,7 @@
                 alt="">
               <img src="https://storage.googleapis.com/vinfast-data-01/LuxA_1.png" alt="">
             </a></div>
-          <div class="item"> <a href="">
+          <div class="item"> <a href="../doAnBootstrap/chi_tiet01.html">
               <div id="content">
                 <p class="fs-6"><strong>Dòng Suv</strong> </p>
                 <p class="fs-5">Dấu ấn người thủ lĩnh</p>
@@ -384,97 +327,98 @@
         <div class="border-top">
           <p class="xe_o_to">Xe máy điện</p>
         </div>
-       
+
         <div class="owl-carousel owl-theme">
 
-          <div class="item"> <a href="">
-            <div class="row">
-              <img src="https://storage.googleapis.com/vinfast-data-01/FELIZ_0.png" alt="">
-              <p class="xe_may_dien"><strong class="gach-xe-may">-</strong> Feliz</p>
-            </div>
-            <div class="row">
-              <div class="border-end">
-                <p class="thanh_lich">Sống thanh lịch</p>
-                <ul class="fw-light">
-                  <li >Thiết kế thời trang</li>
-                  <li>Vận hành êm ái hai chế độ lái Eco và Sprot linh hoạt</li>
-                  <li>Vận tốc tối đa 60km/h. Quãng đường lên tới 90km</li>
-                  <li>Cấp xe rộng tới 20l, tiêu chuẩn chống nước IP67</li>
-                </ul>
+          <div class="item"> <a href="../doAnBootstrap/chi_tiet01.html">
+              <div class="row">
+                <img src="https://storage.googleapis.com/vinfast-data-01/FELIZ_0.png" alt="">
+                <p class="xe_may_dien"><strong class="gach-xe-may">-</strong> Feliz</p>
               </div>
-            </div>
-            </a></div>
-          <div class="item"> <a href="">
-            <div class="row">
-              <img src="https://storage.googleapis.com/vinfast-data-01/KLARA_S.png" alt="">
-              <p  class="xe_may_dien"> <strong class="gach-xe-may">-</strong>KLARAS</p>
-            </div>
-            <div class="row">
-              <div class="border-end">
-                <p class="thanh_lich">Khởi đầu phong cách mới</p>
-                <ul class="fw-light">
-                  <li>Thiết kế sang trọng, tôn vinh voc dáng Việt</li>
-                  <li>Vận hành mạnh mẽ, quãng đường di chuyển tới 120km</li>
-                  <li>Công nghệ thông minh tích hợp e SIM</li>
-                  <li>Tiêu chuẩn chống nước IP57</li>
-                </ul>
+              <div class="row xe-may">
+                <div class="border-end">
+                  <p class="thanh_lich">Sống thanh lịch</p>
+                  <ul class="fw-light">
+                    <li>Thiết kế thời trang</li>
+                    <li>Vận hành êm ái hai chế độ lái Eco và Sprot linh hoạt</li>
+                    <li>Vận tốc tối đa 60km/h. Quãng đường lên tới 90km</li>
+                    <li>Cấp xe rộng tới 20l, tiêu chuẩn chống nước IP67</li>
+                  </ul>
+                </div>
               </div>
-            </div>
             </a></div>
-          <div class="item"> <a href="">
-            <div class="row">
-              <img src="https://storage.googleapis.com/vinfast-data-01/IMPES.png" alt="">
-              <p  class="xe_may_dien"><strong class="gach-xe-may">-</strong>impes</p>
-            </div>
-            <div class="row">
-              <div class="border-end">
-                <p class="thanh_lich">Dáng chơi sành điệu</p>
-                <ul class="fw-light">
-                  <li>Thiết kế sành điệu</li>
-                  <li>Tính năng thông minh vượt trộ</li>
-                  <li>Vận hành êm ái, quãng đường di chuyển lên tới 70km </li>
-                  <li>Công nghệ pin LITHIUM, bền bỉ, công nghệ chống nước IP57</li>
-                </ul>
-               </div>
-            </div>
-            </a></div>
-          <div class="item"> <a href="">
-            <div class="row">
-              <img src="https://storage.googleapis.com/vinfast-data-01/LUDO.png" alt="">
-              <p class="xe_may_dien"><strong class="gach-xe-may">-</strong>LUDO</h2>
-            </div>
-            <div class="row">
-              <div class="border-end">
-                <p class="thanh_lich">Tỏa chất riêng-bật cá tính</p>
-                <ul class="fw-light">
-                  <li>Thiết kế thể thao và cá tính</li>
-                  <li>Tính năng thông minh và vượt trội</li>
-                  <li>Vận hành mạnh mẽ, vận tốc lên tới 49km/h</li>
-                  <li>Công nghệ Lithium bền bỉ, công nghệ chống nước IP57</li>
-                </ul>
+          <div class="item"> <a href="../doAnBootstrap/chi_tiet01.html">
+              <div class="row">
+                <img src="https://storage.googleapis.com/vinfast-data-01/KLARA_S.png" alt="">
+                <p class="xe_may_dien"> <strong class="gach-xe-may">-</strong>KLARAS</p>
               </div>
-            </div>
-            </a></div>
-          <div class="item"> <a href="">
-            <div class="row">
-              <img src="https://storage.googleapis.com/vinfast-data-01/THEON_0.png" alt="">
-              <p class="xe_may_dien"><strong class="gach-xe-may">-</strong> THEON</p>
-            </div>
-            <div class="row">
-              <div class="border-end">
-                <p class="thanh_lich">Công nghệ bứt phá, trải nghiệm định cao</p>
-                <ul class="fw-light">
-                  <li>Vận hành mạnh mẽ, vận tốc lên tới 90km/h</li>
-                  <li>Hệ thống phanh APS 2 phanh, chuẩn chống nước IP67</li>
-                  <li>Công nghệ bứt phá với hệ thống PAAK, Smart key, tích hợp eSIM</li>
-                  <li>Công nghệ phin Lithium tiên tiến</li>
-                </ul>
+              <div class="row xe-may">
+                <div class="border-end">
+                  <p class="thanh_lich">Khởi đầu phong cách mới</p>
+                  <ul class="fw-light">
+                    <li>Thiết kế sang trọng, tôn vinh voc dáng Việt</li>
+                    <li>Vận hành mạnh mẽ, quãng đường di chuyển tới 120km</li>
+                    <li>Công nghệ thông minh tích hợp e SIM</li>
+                    <li>Tiêu chuẩn chống nước IP57</li>
+                  </ul>
+                </div>
               </div>
-            </div>
+            </a></div>
+          <div class="item"> <a href="../doAnBootstrap/chi_tiet01.html">
+              <div class="row">
+                <img src="https://storage.googleapis.com/vinfast-data-01/IMPES.png" alt="">
+                <p class="xe_may_dien"><strong class="gach-xe-may">-</strong>impes</p>
+              </div>
+              <div class="row xe-may">
+                <div class="border-end">
+                  <p class="thanh_lich">Dáng chơi sành điệu</p>
+                  <ul class="fw-light">
+                    <li>Thiết kế sành điệu</li>
+                    <li>Tính năng thông minh vượt trộ</li>
+                    <li>Vận hành êm ái, quãng đường di chuyển lên tới 70km </li>
+                    <li>Công nghệ pin LITHIUM, bền bỉ, công nghệ chống nước IP57</li>
+                  </ul>
+                </div>
+              </div>
+            </a></div>
+          <div class="item"> <a href="../doAnBootstrap/chi_tiet01.html">
+              <div class="row">
+                <img src="https://storage.googleapis.com/vinfast-data-01/LUDO.png" alt="">
+                <p class="xe_may_dien"><strong class="gach-xe-may">-</strong>LUDO</h2>
+              </div>
+              <div class="row xe-may">
+                <div class="border-end">
+                  <p class="thanh_lich">Tỏa chất riêng-bật cá tính</p>
+                  <ul class="fw-light">
+                    <li>Thiết kế thể thao và cá tính</li>
+                    <li>Tính năng thông minh và vượt trội</li>
+                    <li>Vận hành mạnh mẽ, vận tốc lên tới 49km/h</li>
+                    <li>Công nghệ Lithium bền bỉ, công nghệ chống nước IP57</li>
+                  </ul>
+                </div>
+              </div>
+            </a></div>
+          <div class="item"> <a href="../doAnBootstrap/chi_tiet01.html">
+              <div class="row">
+                <img src="https://storage.googleapis.com/vinfast-data-01/THEON_0.png" alt="">
+                <p class="xe_may_dien"><strong class="gach-xe-may">-</strong> THEON</p>
+              </div>
+              <div class="row xe-may">
+                <div class="border-end">
+                  <p class="thanh_lich">Công nghệ bứt phá, trải nghiệm định cao</p>
+                  <ul class="fw-light">
+                    <li>Vận hành mạnh mẽ, vận tốc lên tới 90km/h</li>
+                    <li>Hệ thống phanh APS 2 phanh, chuẩn chống nước IP67</li>
+                    <li>Công nghệ bứt phá với hệ thống PAAK, Smart key, tích hợp eSIM</li>
+                    <li>Công nghệ phin Lithium tiên tiến</li>
+                  </ul>
+                </div>
+              </div>
             </a></div>
         </div>
       </div>
     </div>
+    <!-- video nổi bật -->
     <div class="container video_noi_bat">
       <p class="fw-normal">Video nội bật</p>
       <div class="row">
@@ -501,21 +445,23 @@
 
       </div>
     </div>
+    <!-- new_word -->
     <div class="container-flui new_word">
       <div class="container ">
         <div class="tin_pho_bien">Tin tức phổ biến</div>
-        <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2">
-  
+        <div class="row row-cols-1 row-cols-md-3 row-cols-2">
+
           <div class="col">
             <div class="anh_tin_tuc">
               <img
                 src="https://storage.googleapis.com/vinfast-data-01/styles/news_360x200/public/2021_03/VF33_front.jpg?itok=pv_OsCrS"
                 alt="">
               <p class="p-1"><small>Công ti</small></p>
-              <p class="p-1 f_cong_ti">VinFast ra mắt 3 dòng ô tô điện tự lái - khẳng định tầm nhìn trở thành hãng xe điện
+              <p class="p-1 f_cong_ti">VinFast ra mắt 3 dòng ô tô điện tự lái - khẳng định tầm nhìn trở thành hãng xe
+                điện
                 thông minh toàn cầu</p>
             </div>
-  
+
           </div>
           <div class="col ">
             <div class="anh_tin_tuc">
@@ -525,7 +471,7 @@
               <p class="p-1"><small>Công ti</small></p>
               <p class="p-1 f_cong_ti">Cùng VinFast xây dựng hệ sinh thái trạm sạc xe điện trên toàn quốc </p>
             </div>
-  
+
           </div>
           <div class="col ">
             <div class="anh_tin_tuc">
@@ -536,7 +482,7 @@
               <p class="p-1 f_cong_ti">VinFast ra mắt hai dòng xe điện mới Impes và Ludo cùng hệ thống trạm đổi pin tiến
                 tiến</p>
             </div>
-  
+
           </div>
           <div class="col ">
             <div class="anh_tin_tuc">
@@ -546,7 +492,7 @@
               <p class="p-1"><small>Công ti</small></p>
               <p class="p-1 f_cong_ti">VinFast cung cấp thêm lựa chọn mua pin xe máy điện cho khách hàng</p>
             </div>
-  
+
           </div>
           <div class="col ">
             <div class="anh_tin_tuc">
@@ -556,7 +502,7 @@
               <p class="p-1"><small>Công ti</small></p>
               <p class="p-1 f_cong_ti"> VinFast giới thiệu xe phiên bản giới hạn </p>
             </div>
-  
+
           </div>
           <div class="col ">
             <div class="anh_tin_tuc">
@@ -564,51 +510,52 @@
                 src="https://storage.googleapis.com/vinfast-data-01/styles/news_360x200/public/2021_01/anh-thumb-vinfast-gioi-thieu-phien-ban-nang-cap-klara-s-va-cong-bo-gia-ban-dac-biet-cho-ludo-impres.jpg?itok=kyEUkKad"
                 alt="">
               <p class="p-1"><small>Công ti</small></p>
-              <p class="p-1 f_cong_ti"> Công ti VinFast giới thiệu phiên bản nâng cấp Kalara S và công bố giá bán đặc biệt
+              <p class="p-1 f_cong_ti"> Công ti VinFast giới thiệu phiên bản nâng cấp Kalara S và công bố giá bán đặc
+                biệt
                 cho LuDo</p>
             </div>
-  
+
           </div>
-  
-  
+
+
         </div>
       </div>
     </div>
-   
   </content>
   <footer>
     <div class="border-top border-primary border-5 ">
       <div class="container pt-5">
+        <!-- nọi dung đầu tiên -->
         <div class="border-bottom fs-footer">
           <div class="row ">
             <div class="col-md-4">
-              <p class="kinh_doanh pe-4">Công ty TNHH Kinh doanh Thương mại và Dịch vụ VinFast</p>
-              <div class="row">
-                <div class="col-md-2">
-                  <strong> <i class="fa fa-phone pe-4 icon" aria-hidden="true"></i></strong>
+              <p class="kinh_doanh ps-4">Công ty TNHH Kinh doanh Thương mại và Dịch vụ VinFast</p>
+              <div class="row px-4">
+                <div class="col-sm-3 col-1 col-md-1 pe-4">
+                  <strong> <i class="fa fa-phone  icon" aria-hidden="true"></i></strong>
                 </div>
-                <div class="col phone_number">
+                <div class="col-sm-6 col-6 col-md-6 phone_number ps-4 ">
                   <p>1900 23 23 89</p>
                   <p><small class="phut_money">(1000 VNĐ/phut)</small></p>
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="row">
+            <div class="col-md-4 ps-4">
+              <div class="row ps-3">
                 <div class="col-md-1">
                   <i class="fa fa-calendar-o pe-4 " aria-hidden="true"></i>
                 </div>
                 <div class="col kinh_doanh">
-                  <p>Số đăng ký kinh doanh: 0108926276</p>                   
-                    <p>Đăng ký lần đầu: ngày 01 tháng 10 năm 2019</p>
-                    <p>Đăng ký thay đổi lần thứ: 3, ngày 17 tháng 03 năm 2020</p>
-                    <p>Nơi cấp: Sở Kế hoạch và Đầu tư Thành phố Hà Nội</p> 
+                  <p>Số đăng ký kinh doanh: 0108926276</p>
+                  <p>Đăng ký lần đầu: ngày 01 tháng 10 năm 2019</p>
+                  <p>Đăng ký thay đổi lần thứ: 3, ngày 17 tháng 03 năm 2020</p>
+                  <p>Nơi cấp: Sở Kế hoạch và Đầu tư Thành phố Hà Nội</p>
                 </div>
               </div>
-              
+
             </div>
-            <div class="col-md-4">
-              <div class="row">
+            <div class="col-md-4 ps-4">
+              <div class="row ps-3">
                 <div class="col-md-1">
                   <i class="fa fa-map-marker pe-4" aria-hidden="true"></i>
                 </div>
@@ -620,16 +567,18 @@
                   </p>
                 </div>
               </div>
-              
+
             </div>
           </div>
         </div>
         <div class="f-footer">
+          <!--  ảnh logo -->
           <div class="row">
             <div class="col align-self-center text-center  mt-5">
               <img width="122px" height="80px" src="https://storage.googleapis.com/vinfast-data-01/logo-fot.png" alt="">
             </div>
           </div>
+          <!-- nọi dung footer -->
           <div class="border-bottom">
             <div class="row row-cols-3 row-cols-sm-3 row-cols-md-6 noi_dung_footer">
               <div class="col ">
@@ -691,7 +640,8 @@
               </div>
             </div>
           </div>
-          <div class="row main-footer mt-3">
+          <!-- Hệ sinh thái -->
+          <div class="row main-footer mt-3 ps-3">
             <div class="col-md-8">
               <ul class="list-group list-group-horizontal">
                 <p class="menu_footer pe-4">hệ sinh thái</p>
@@ -701,18 +651,21 @@
                 <li class="list-group-item">Vinpearl</li>
               </ul>
             </div>
-  
+
             <div class="col-md-4 ">
               <small class="fw-light copy ps-5"><strong> VinFast. All rights reserved. © Copyright
                   2020</strong></small>
             </div>
           </div>
+          <!-- hotline -->
           <div class="hotline mt-3">
-            <div class="row">
+            <div class="row ps-3 ">
+              <!-- trái -->
               <div class="col-md-6">
+
                 <div class="row">
                   <div class="col">
-                    <span class="menu_noi_dung pe-4">Hotline & Customer </span>
+                    <span class="menu_noi_dung pt-0">Hotline & Customer </span>
                   </div>
                   <div class="col">
                     <div class="border">
@@ -724,7 +677,7 @@
                           <p>1900.232.389</p>
                         </div>
                       </div>
-                      
+
                     </div>
                   </div>
                   <div class="col">
@@ -734,105 +687,43 @@
                           <i class="fa fa-envelope-o" aria-hidden="true"></i>
                         </div>
                         <div class="col">
-                          <p>cskh@VinFast</p> 
+                          <p>cskh@VinFast</p>
                         </div>
                       </div>
                     </div>
-                    
+
                   </div>
                 </div>
-                     
-  
-  
               </div>
-             
-              <div class="col-md-6">
-                <div class="row ">
-                  <div class="col">
-                  
-                    <div class="row">
-                      <div class="col-md-4 offset-md-4">
-                        <span class=" ket_noi">Ngôn ngữ</span>
-                      </div>
-                      <div class="col pe-1">
-                        <div class="border-end ">
-                          <a href="#">VN</a>
-                        </div>
-                      </div>
-                      <div class="col ps-1">
-                        <a href="#">EN</a>
-                      </div>
-                    </div>
+              <!-- phải -->
+              <div class="col-md-4 offset-md-2 ps-4">
+                <div class="row row-cols-3">
+                  <div class="col-md-5 col-4 ket_noi">
+                    <span>Kết nối với VinFast</span>
                   </div>
-                  <div class="col">
-                  
-                    <div class="row">
-                      <div class="col-md-6 ket_noi">
-                        <span>Kết nối với VinFast</span>
-                      </div>
-                      <div class="col">
-                        <a href="https://www.facebook.com/VinFastAuto.Official/" class="item_lien_ket">
-                          <i class="fa fa-facebook p-2" aria-hidden="true"></i>
-                        </a>
-                      </div>
-                      <div class="col">
-                        <a href="https://www.youtube.com/channel/UCA5OijDHvvWJ3vy5iVdWcAQ" class="item_lien_ket">
-                          <i class="fa fa-youtube-play p-2" aria-hidden="true"></i>
-                        </a>
-                      </div>
-                    </div>
+                  <div class="col-md-2 col-2 ket_noi_right">
+                    <a href="https://www.facebook.com/VinFastAuto.Official/" class="item_lien_ket">
+                      <i class="fa fa-facebook p-2" aria-hidden="true"></i>
+                    </a>
                   </div>
+                  <div class="col-md-2 col-2">
+                    <a href="https://www.youtube.com/channel/UCA5OijDHvvWJ3vy5iVdWcAQ" class="item_lien_ket1">
+                      <i class="fa fa-youtube-play p-2" aria-hidden="true"></i>
+                    </a>
+                  </div>
+
                 </div>
-  
+
               </div>
-             
+
             </div>
           </div>
         </div>
       </div>
     </div>
-    
+
   </footer>
 </body>
 
 </html>
-
-<script>
-  $(document).ready(function () {
-    var owl = $('.owl-carousel');
-    owl.owlCarousel({
-      loop: true,
-      margin: 10,
-      // autoplay: true,
-      autoplayTimeout: 1500,
-      autoplayHoverPause: true,
-      responsive: {
-        0: {
-          items: 1
-        },
-        600: {
-          items: 2
-        },
-        1000: {
-          items: 3
-        }
-      }
-    });
-    $('.play').on('click', function () {
-      owl.trigger('play.owl.autoplay', [1000])
-    });
-    $('.stop').on('click', function () {
-      owl.trigger('stop.owl.autoplay')
-    });
-  });
-  $(document).ready(function () {
-    $(window).scroll(function () {
-      if ($(this).scrollTop()) {
-        $('header').addClass('sticky');
-      } else {
-        $('header').removeClass('sticky');
-      };
-    });
-
-  });
-</script>
+<script src="../jscript.js/Trangchu.js"></script>

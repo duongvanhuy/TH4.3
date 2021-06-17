@@ -55,30 +55,22 @@
     background-position: top;
     height: auto;
     transition: 0.3s;
-    /* padding: 40px 20px 0px 50px; */
     margin: 0;
-
   }
-
   .f-banner .owl-carousel .item:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
   }
-
-
   .item a {
     color: #000;
     text-decoration: none;
     text-align: left;
-
   }
-
   .fs-banner .owl-carousel .item a:hover {
     color: #fff;
   }
-
   ul li {
     text-align: left;
     line-height: 30px;
@@ -90,27 +82,22 @@ color: #000;
     text-transform: uppercase;
 
   }
-
   .fs-6 {
     color: #808080;
     text-transform: uppercase;
     letter-spacing: 5px;
   }
-
   .chi_tiet {
     text-align: center;
     margin-top: 70px;
     text-transform: uppercase;
   }
-
   .fs-body {
     padding: 40px 20px 0 50px;
   }
-
   .f-body {
     margin-top: 20px;
   }
-
   /* demo */
   .col-md-8 {
     padding-right: 0;
@@ -141,7 +128,10 @@ color: #000;
     font-size: 33px;
     font-family: Mulish;
   }
-
+/* main-content */
+.xe-may .border-end{
+  height: 250px;
+}
   /* video */
   li a {
     text-decoration: none;
@@ -306,11 +296,17 @@ color: #000;
     color: #000;
   }
 
-  .sticky .navbar-light .d-flex .dang_ki_lai_thu {
+  .sticky .navbar-light .d-flex .btn-outline-light {
     border-color: #0099FF;
     color: #0099FF;
   }
-
+  .sticky .navbar-light .d-flex .btn-outline-light a {
+  
+    color: #0099FF;
+  }
+  .dang_ki_lai_thu a{
+    color: #fff;
+  }
   .carousel-control-next {
     width: 5%;
   }
@@ -423,3 +419,208 @@ color: #000;
     padding: 0;
     font-size: 16px;
   }
+  .ket_noi_right{
+    margin: 0 10px;
+  }
+  .item_lien_ket1{
+    border-radius: 50%;
+    border: 1px solid;
+    padding: 7px;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  /*  */
+  /*  */
+  /*  */
+  .chinh_phuc_the_gioi{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+    line-height: 140%;
+  }
+  .f-banner{
+    background-image: url(https://storage.googleapis.com/vinfast-data-01/bg-news-front.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: auto;
+    transition: 0.3s;
+    margin: 0;
+  }
+  
+ .xe_o_to{
+   padding: 50px 0;
+   font-size: 35px;
+   /* giãi cách các chữ trong 1 hàng */
+   letter-spacing: 20px;
+   text-align: center;
+   text-transform: uppercase;
+ }
+ .border-top .xe_o_to{
+   padding-top: 50px;
+   padding-bottom: 30px;
+ }
+ .xe_may_dien{
+   text-align: center;
+   font-size: 24px;
+   text-transform: uppercase;
+   font-weight: 100;
+
+ }
+ .gach_xe_may{
+   color: blue;
+ }
+ .thanh_lich{
+   /* text-align: center; */
+   font-size: 20px;
+   color: #CCCCCC;
+   text-transform: uppercase;
+ }
+ .owl-item{
+   margin-right: 0;
+ }
+ .video_noi_bat{
+   margin-bottom: 40px;
+ }
+.new_word{
+  background-image: url(https://storage.googleapis.com/vinfast-data-01/bg-news-front.png);
+}
+@media (max-width: 768px){
+  .f-header{
+    color: #ffff;
+position: fixed;
+z-index: 100;
+background: #fff;
+
+width: 100%;
+border-bottom: 1px solid #f5f5f5;
+padding: 0px;
+color: #000;
+transition: all 0.5s ease-in-out;
+text-transform: uppercase;
+top: 0;
+
+  }
+}
+@media (max-width: 768px){
+  header{
+    margin-bottom: 61px;
+    position: relative;
+    color: #000;
+  }
+}
+@media (max-width: 768px){
+  .vinFast {
+color: #000;
+}
+}
+ @media (max-width: 990px){
+  .navbar-collapse {
+
+background: black;
+padding: 10px 20px;
+}
+}
+@media (min-width: 576px){
+.col-sm-10 {
+    flex: 0 0 auto;
+    width: 82.3333333333%;
+}
+}
+/* @media only screen and (max-width: 768px) {
+  .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    border-bottom: 1px solid;
+    padding: 20px 0px;
+  }
+  .language{
+    display: none;
+  }
+  .person{
+    display: none;
+  }
+  button.btn.btn-outline-light.mx-5.dang_ki_lai_thu {
+    width: 100%;
+    background: #fff;
+    padding: 13px;
+    margin: 10px;
+  }
+  .dang_ki_lai_thu a{
+    color: #0033CC;
+  }
+  .sticky .navbar-light .navbar-nav .nav-link{
+    color: #fff !important;
+  }
+} */
+@media only screen and (max-width: 990px) {
+  .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    border-bottom: 1px solid;
+    padding: 20px 0px;
+  }
+  .language{
+    display: none;
+  }
+  .person{
+    display: none;
+  }
+  button.btn.btn-outline-light.mx-5.dang_ki_lai_thu {
+    width: 100%;
+    background: #fff;
+    padding: 13px;
+    margin: 10px;
+  }
+  .dang_ki_lai_thu a{
+    color: #0033CC;
+  }
+  .sticky .navbar-light .navbar-nav .nav-link{
+    color: #fff !important;
+  }
+  .video_noi_bat .row .col-md-8{
+    padding-right: 10px !important;
+  }
+  .video_noi_bat .row .col-md-4{
+    padding-right: 10px !important;
+  }
+}
+@media (max-width: 990px){
+  header {
+    margin-bottom: 61px;
+    position: relative;
+    color: #000;
+}
+.f-header {
+  color: #fff;
+  position: fixed;
+  z-index: 100;
+  background: #fff;
+  width: 100%;
+  border-bottom: 1px solid #f5f5f5;
+  padding: 0px;
+  color: #000;
+  transition: all 0.5s ease-in-out;
+  text-transform: uppercase;
+  top: 0;
+}
+.vinFast {
+  color: #000 !important;
+}
+.col-md-4.offset-md-2.ps-4 {
+  padding-top: 30px;
+}
+  }
+  @media (max-width: 990px){
+.hotline .row .col-md-6 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+.hotline .row .offset-md-2 {
+  margin-left: 0;
+  }
+  .hotline .row .col-md-4 {
+    flex: 0 0 auto;
+    width: 50%;
+    margin-left: 0;
+    padding-left: 0;
+}
+}

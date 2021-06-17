@@ -50,21 +50,16 @@
     background: url(https://storage.googleapis.com/dev-digital-museum/Rectangle%20416.png);
     background-size: 100% auto;
     background-repeat: no-repeat;
-    background-position: top;
     background-size: cover;
-    /* background: rgba(211,211,211,1); */
     height: auto;
     transition: 0.3s;
-    /* padding: 80px 20px 80px 50px; */
     margin: 0;
     margin-right: 0px;
-    /* opacity: 0.3; */
+    
 }
 .img-right{
-    /* padding-left: 30px; */
     padding-top: 80px;
     text-align: center;
-    /* padding-right: 30px; */
     padding-bottom: 50px;
 }
 .img-card{
@@ -83,4 +78,26 @@
     font-size: 17px;
     width: 158px;
 
+}
+button.dang_nhap01 {
+    background: #fff !important;
+    border: none;
+    color: #006699 !important;
+}
+button.dang_ki {
+    background: #fff;
+    border: none;
+
+}
+#inputPassword3{
+    display: none;
+}
+#inputPassword4{
+    display: none;
+}
+#have{
+    display: none;
+}
+#have01{
+    display: none;
 }
