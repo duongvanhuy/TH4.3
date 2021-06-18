@@ -87,7 +87,10 @@ a.nav-link.disabled {
   color: #fff;
   border: 2px solid;
   width: 150px;
- }
+ }a.mua_ngay001 {
+  color: #fff;
+  text-decoration: none;
+}
  /* f-content */
  .col-md-2.offset-md-2.px-0 {
   padding-right: 40px !important;

@@ -5,6 +5,8 @@ $(document).ready(function () {
       margin: 10,
       autoplay: true,
       autoplayTimeout: 2000,
+      // triggerable:2000, 
+      // requestAnimationFrame: 2000,
       autoplayHoverPause: true,
       responsive: {
         0: {
